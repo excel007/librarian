@@ -1,0 +1,2 @@
+annotated-types==0.6.0
+taskingai==0.2.2
