@@ -11,7 +11,7 @@ def main():
     st.caption(f'คุณสามารถพูดคุยเกี่ยวกับหนังสือทั้ง 2 เล่มได้ เช่น :blue["_สรุปหนังสือ Zero to one ให้ด้วย_"] :red["_หนังสือ The lean startup กับ Zero to one มีเนื้อหาอะไรที่สัมพันธ์กัน_"] :green["_Elon Musk ถูกพูดถึงว่าอย่างไร_"]')
     st.divider()
     # Define your model ID here
-    taskingai.init(api_key=TASKINGAI_API_KEY)
+    taskingai.init(api_key=st.secrets["TASKINGAI_API_KEY"])
     assistant_id="X5lMR29D6xy5A2snTkYkkhq4"
     chat_id="SdELFXXzakkmmh8xwXaMqvrB"
 
