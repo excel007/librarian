@@ -13,8 +13,8 @@ def main():
     # Define your model ID here
     taskingai.init(api_key=st.secrets["TASKINGAI_API_KEY"])
     assistant_id="X5lMR29D6xy5A2snTkYkkhq4"
-    # chat_id="SdELmFo8IVol4wNGHJvWY1fh"
-    chat_id="$$CHAT_ID$$"
+    chat_id="SdELmFo8IVol4wNGHJvWY1fh"
+    # chat_id="$$CHAT_ID$$"
 
     # Use Streamlit chat input to get user input
     prompt = st.chat_input("พิมพ์ข้อความที่นี่")
