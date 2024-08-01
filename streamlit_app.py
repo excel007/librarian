@@ -10,7 +10,8 @@ def main():
     st.page_link("https://archive.org/details/zero-to-one-peter-thiel/Zero%20to%20One%20-%20Peter%20Thiel/", label="Zero to One โดย Peter Thiel", icon="📔")
     st.caption(f'คุณสามารถพูดคุยเกี่ยวกับหนังสือทั้ง 2 เล่มได้ เช่น :blue["_สรุปหนังสือ Zero to one ให้ด้วย_"] :red["_หนังสือ The lean startup กับ Zero to one มีเนื้อหาอะไรที่สัมพันธ์กัน_"] :green["_Elon Musk ถูกพูดถึงว่าอย่างไร_"]')
     st.divider()
-    # Define your model ID herep
+    # Define your model ID here
+    taskingai.init(api_key=TASKINGAI_API_KEY)
     assistant_id="X5lMR29D6xy5A2snTkYkkhq4"
     chat_id="SdELFXXzakkmmh8xwXaMqvrB"
 
